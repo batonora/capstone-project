@@ -43,7 +43,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 90vh;
 }
 
 #header::before {
@@ -237,13 +236,29 @@ h4 {
 
 /* mobile */
 @media (max-width: 576px) {
+  #header-home {
+    height: 70vh;
+  }
+  
+  #header-resume {
+    height: 70vh;
+  }
+  
+  #header-about-me {
+    height: 70vh;
+  }
+  
+  #header::before {
+    height: 70vh;
+  }
+
   .socialmedia-logo {
     margin-right: 1rem;
     margin-left: 1rem;
   }
 
   nav{
-    font-size: 18px;
+    font-size: 16px;
   }
   
   .navbar {
@@ -251,11 +266,11 @@ h4 {
   }
 
   .logo {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .nav-item {
-    margin: 10px;
+    margin: 4px;
   }
 
   h1 {
@@ -268,6 +283,7 @@ h4 {
 
   #content {
     font-size: 16px;
+    margin: 2rem 3rem;
   }
 
   #profile {
