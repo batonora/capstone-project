@@ -43,6 +43,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  height: 90vh;
 }
 
 #header::before {
@@ -172,7 +173,7 @@ h4 {
 
   color: #FFF;
   font-family: 'Encode Sans Semi Expanded', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -230,7 +231,7 @@ h4 {
   }
 			
   #footer-box {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 
@@ -245,6 +246,10 @@ h4 {
   }
   
   #header-about-me {
+    height: 70vh;
+  }
+
+  #header-contact-me {
     height: 70vh;
   }
   
@@ -262,7 +267,11 @@ h4 {
   }
   
   .navbar {
-    padding: 3rem 3rem;
+    padding: 3rem 2rem;
+  }
+
+  .navbar .logo {
+    margin-right: 0.5rem;
   }
 
   .logo {
@@ -274,7 +283,7 @@ h4 {
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
   
   h2 {
@@ -292,6 +301,6 @@ h4 {
   }
 			
   #footer-box {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
